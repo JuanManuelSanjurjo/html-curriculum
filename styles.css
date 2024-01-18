@@ -1,0 +1,206 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height: 100vh;
+    font-size: 1.125rem;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: cadetblue;
+}
+
+.curriculum{
+    background-color: #f1f1f1;
+    max-width: 1240px;
+    min-height:  1754px;
+    /* aspect-ratio: 1/1.41; */
+    
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2fr 5fr ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* MAIN SECTION */
+hr{
+    height: 4px;
+    background-color: #323b4b;
+    border: none;
+    margin-bottom: 10px;
+}
+.main-section{
+    margin-inline: 2rem;
+    color: #1f1e1e;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.section-title h2{
+    display: flex;
+    align-items: center;
+    font-size: 30px ;
+    font-weight: 700;
+}
+.section-title p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    font-size: 1rem;
+}
+/*  SUBTITLE */
+.section-title > h3{ 
+    margin-block: 0.5rem;
+}
+.titles *{
+    margin-block: 0.5rem;
+    font-weight: 300;
+    font-size: 60px;
+}
+.name{
+    font-weight: 800;
+}
+.surname{
+    font-weight: 300;
+}
+.titles h3{
+    font-size: 22px;
+}
+
+h2 span{
+    font-size: 1.125rem;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+/* MAIN SECTION EXPERIONCE */
+.experience-container > div{
+    margin-bottom: 1rem;
+}
+.experience-container h3{
+    margin-bottom: 0.3rem;
+}
+
+/* MAIN SECTION SKILLS */
+.skills{
+    display: flex;
+    gap: 5px;
+    color: #f1f1f1;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+.skills * {
+    background-color: #323b4b;
+    width: fit-content;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+
+
+/*  SIDE SECTION */
+
+.side-section{
+    background-color: rgb(50, 59, 75);
+    color: #f1f1f1;
+}
+.portrait-container{
+    display: flex;
+    justify-content: center;
+}
+.portrait{
+    max-width: 80%;
+    aspect-ratio: 4/4;
+    border-radius: 100%;
+    margin: 2rem auto;
+    border: 10px solid ;
+    box-shadow: 2px 2px 5px #181818;
+}
+.contact-icon{
+    height: 1rem;
+}
+.side-content-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2rem;
+    gap: 5rem;
+}
+.sidebar-sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.contact-item{
+    display: flex;
+    gap: 1.5rem;
+}
+.sidebar-title{
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+}
+.sidebar-title img {
+    height: 2rem;
+}
+ul{
+    margin-left: 2rem;
+}
+ul li{
+    margin-bottom: 5px;
+}
+
+h3 span{
+    font-weight: 300;
+}
+.education-content, .certificate-content, .languajes-content{
+    font-size: 14px;
+}
+.education-content *, .certificate-content *, .languajes-content *{
+    margin-bottom: 10px;
+}
+
+
+
+
+#button{
+    position: fixed;
+    right: 100px;
+    top: 5vh;
+    padding: 10px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-weight: 800;
+    font-size: 1rem;
+    background-image: radial-gradient( circle 325px at 19.2% 64.8%,  rgba(254,62,101,1) 9.7%, rgba(166,24,146,1) 91.3% );
+    border: none;
+    box-shadow: 2px 2px 5px #1f1e1e;
+    transition: 0.3s ;
+}
+
+.btn:hover{
+    box-shadow: 4px 4px 7px #1f1e1e;
+    cursor: pointer;
+}
+
+
+#button:hover .btn{
+    transform: rotateZ(-5deg)
+}
+
