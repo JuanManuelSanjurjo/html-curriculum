@@ -75,6 +75,10 @@ hr{
 .titles h3{
     font-size: 22px;
 }
+h2 > img {
+    height: 30px;
+    margin-right: 0.5rem;
+}
 
 h2 span{
     font-size: 1.125rem;
@@ -105,8 +109,12 @@ h2 span{
     width: fit-content;
     padding: 10px;
     margin: 0;
+    transition: 0.3s;
 }
 
+.skills *:hover{
+    scale: 1.1;
+}
 
 
 
