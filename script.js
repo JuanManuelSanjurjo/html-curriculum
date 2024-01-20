@@ -8,6 +8,7 @@ async function downloadCurriculum(){
         format: "a4"
       });
     pdf.addImage(imgData, 'PNG', 0, 0, 595, 842); // point units of an A4
+    // 794 x 1123 pixels is 96 dpi a4 - tamaño fisico
     pdf.save('Juan Manuel Sanjurjo CV.pdf');
 }
 
