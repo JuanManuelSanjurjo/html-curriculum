@@ -8,7 +8,7 @@ body{
     background-image: linear-gradient(150deg, #0a0b0f 0%, #172238  100%);
     background-color: #13171f;
     min-height: 100vh;
-    font-size: 1.125rem;
+    font-size: 	18px;
 }
 
 a{
@@ -91,6 +91,9 @@ h2 span{
     font-size: 1.125rem;
     margin-left: 1rem;
     font-weight: 400;
+}
+.i-projects{
+    font-size: 1rem;
 }
 
 /* MAIN SECTION EXPERIONCE */
@@ -226,9 +229,20 @@ h3 span{
 
 
 @media screen and (max-width: 900px){
-  .curriculum{
+    body{
+        font-size: 	14px;
+    }
+    .titles *{
+        font-size: 40px ;
+        text-align: center;
+
+    }
+    .curriculum{
     grid-template-columns: 1fr;
     margin: 0;
+  }
+  .main-section{
+    padding: 5px ;
   }
   .side-content-container{
     line-break: anywhere;
